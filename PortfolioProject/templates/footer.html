@@ -1,0 +1,37 @@
+
+<head>
+    <style>
+    .footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+</style>
+</head>
+
+<footer class="footer">
+  <p id="message">&copy; 2024 Akhil. All rights reserved.</p>
+</footer>
+
+<script>
+    var textElement = document.getElementById('message');
+
+    // Function to hide the text
+    function hideText() {
+      textElement.style.display = 'none';
+    }
+
+    // Function to show the text
+    function showText() {
+      textElement.style.display = 'block';
+    }
+
+    // Initially hide the text
+    hideText();
+
+    // Set timeout to show the text after 2 seconds
+    setTimeout(function() {
+      showText();
+    }, 2000);
+</script>

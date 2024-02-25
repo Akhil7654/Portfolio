@@ -1,0 +1,409 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+<html lang="en">
+  <head>
+    <title>Clark - Free Bootstrap 4 Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="{% static 'https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900' %}" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'css/open-iconic-bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/aos.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/ionicons.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'css/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/icomoon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="logotext" href="">AKHIL </a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+<!--	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>-->
+<!--	          <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>-->
+<!--	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>-->
+<!--				<li class="nav-item"><a href="#skills-section" class="nav-link"><span>Certificates||Achievements</span></a></li>-->
+
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Lets Talk</span></a></li>
+
+
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+
+	  <section id="home-section" class="hero">
+  <div class="home-slider owl-carousel">
+    <div class="slider-item">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+          <div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.png);">
+            <div class="overlay"></div>
+          </div>
+          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+            <div class="text">
+              <span class="subheading" style="font-size:40px;">Hii !</span>
+              <h1 class="mb-4 mt-3">I'm <span>Akhil A</span></h1>
+              <h2 class="mb-4" style="max-width: 420px;">A full-stack developer from India, specialize in <b>Python Django and React</b>, harnessing its power to create robust web applications that seamlessly integrate front-end and back-end functionalities.</h2>
+              <!-- <p><a href="#" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p> -->
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+
+	      <div class="slider-item">
+	      	<div class="overlay"></div>
+	        <div class="container">
+	          <div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_2.png);">
+	          		<div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading"></span>
+						<div class="container-quote" style="margin-top:70px;">
+							<div class="item"> <h1 class="mb-4 mt-3" >I thrive on turning <span>Ideas</span> into digital Experiences.</h1></div>
+							<div class="item" style="width:420px;margin-bottom:85px;"><img src="{% static 'images/Quote-image.png' %}" alt="Imagesss"></div>
+						</div>
+						<p><a href="#projects-section" class="btn btn-white btn-outline-white py-3 px-4" style="margin-left:40px;">My works</a></p>
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+	    </div>
+    </section>
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+    		<div class="row d-flex">
+    			<div class="col-md-6 col-lg-5 d-flex">
+
+					<div class="circle-photo"><img src="{% static 'images/dp-profile.jpg' %}" alt="Your Photo"  style="margin-top:100px;width:346px; "></div>
+
+    			</div>
+    			<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+    				<div class="row justify-content-start pb-3">
+		          <div class="col-md-12 heading-section ftco-animate">
+		          	<h1 class="big">About</h1>
+		            <h2 class="mb-4">About Me</h2>
+		            <p><br></p>
+		            <ul class="about-info mt-4 px-md-0 px-2">
+		            	<li class="d-flex"><span>Name:</span> <span>Akhil A</span></li>
+		            	<li class="d-flex"><span>Date of birth:</span> <span>May 11, 2002</span></li>
+		            	<li class="d-flex"><span>Address:</span> <span>Trivandrum, Kerala</span></li>
+<!--		            	<li class="d-flex"><span>Zip code:</span> <span>1000</span></li>-->
+		            	<li class="d-flex"><span>Email:</span> <span>msdcr88@gmail.com</span></li>
+		            	<li class="d-flex"><span>Phone: </span> <span>9207297918</span></li>
+		            </ul>
+		          </div>
+		        </div>
+	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
+              <div class="text">
+
+                <p><a href="{% static 'Resources/Akhil - Resume.pdf' %}" download="Resume" target="_blank" class="btn btn-primary py-3 px-3">Download Resume</a></p>
+              </div>
+	          </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+
+    <section class="ftco-section" id="services-section">
+    	<div class="container">
+    		<div class="row justify-content-center py-5 mt-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Services</h1>
+            <h2 class="mb-4">Services</h2>
+            <br>
+          </div>
+        </div>
+    		<div class="row">
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="#" class="services-1">
+							<span class="icon">
+								<i class="flaticon-analysis"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Web Design</h3>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="#" class="services-1">
+							<span class="icon">
+								<i class="flaticon-flasks"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Portfolio Works</h3>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="#" class="services-1">
+							<span class="icon">
+								<i class="flaticon-ideas"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Full Stack Works</h3>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="#" class="services-1">
+							<span class="icon">
+								<i class="flaticon-analysis"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">UI Design</h3>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="#" class="services-1">
+							<span class="icon">
+								<i class="flaticon-flasks"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Testing and Debugging</h3>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 text-center d-flex ftco-animate">
+						<a href="#" class="services-1">
+							<span class="icon">
+								<i class="flaticon-ideas"></i>
+							</span>
+							<div class="desc">
+								<h3 class="mb-5">Technical Support</h3>
+							</div>
+						</a>
+					</div>
+				</div>
+    	</div>
+    </section>
+
+
+
+    <section class="ftco-section ftco-project" id="projects-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">Projects</h2>
+            <p></p>
+          </div>
+        </div>
+
+			<br>
+
+<div class="grid-container">
+    <div class="grid-item">
+            <img src="{% static 'images/Carpooling.jpg' %}" alt="Image 1" class="image">
+            <div class="text-grid">
+				<a href="https://github.com/Akhil7654/CarPooling" target="_blank" style="color:white;">CarPooling</a>
+			</div>
+    </div>
+
+
+    <div class="grid-item">
+      <img src="{% static 'images/BMS.jpg' %}" alt="Image 2" class="image">
+		<div class="text-grid">
+			<a href="https://github.com/Akhil7654/Bms_123" target="_blank" style="color:white;"> College Bus Management </a></div>
+    </div>
+    <div class="grid-item">
+      <img src="{% static 'images/e-commerce.jpg' %}" alt="Image 3" class="image">
+		<div class="text-grid">
+			<a href="https://github.com/Akhil7654/EcommerceApp" target="_blank" style="color:white;"> E-Commerce </a>
+		</div>
+    </div>
+    <div class="grid-item">
+      <img src="{% static 'images/collegestore.jpg' %}" alt="Image 4" class="image">
+		<div class="text-grid">
+			<a href="https://github.com/Akhil7654/CollegeStore" target="_blank" style="color:white;"> Academic Store </a>
+		</div>
+    </div>
+    <div class="grid-item">
+      <img src="{% static 'images/todoapp.jpg' %}" alt="Image 5" class="image">
+		<div class="text-grid">
+			<a href="https://github.com/Akhil7654/Todo-App" target="_blank" style="color:white;"> To Do List </a> </div>
+    </div>
+  </div>
+
+
+    	</div>
+    </section>
+
+
+    		<section class="ftco-section" id="skills-section">
+			<div class="container">
+				<div class="row justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Certifications & Achievements</h1>
+            <h2 class="mb-4">Certifications</h2>
+            <br>
+          </div>
+        </div>
+				<div class="row">
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3> Completed <b>Full Stack Python Internship</b> at Inmakes Infotech.</h3>
+						</div>
+					</div>
+
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>Got Certificate from the Mean Stack Development conducted by <b>ICT Academy of Kerala</b>.</h3>
+
+						</div>
+					</div>
+
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>Got Certificate from the Android Application Development conducted by KELTRON.</h3>
+
+						</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Contact</h1>
+            <h2 class="mb-4">Contact Me</h2>
+            <p>If you're interested in collaborating or have any questions, feel free to get in touch. I'd love to hear from you!</p>
+          </div>
+        </div>
+
+
+
+          </div>
+
+ <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+    	<div class="container">
+				<div class="row d-md-flex align-items-center">
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="socialmedia-1">
+				  <a href="https://www.instagram.com/4kh.il__/" target="_blank">
+                <img src="{% static 'images/insta-logo.jpg' %}" alt="Square Image" class="rounded-image">
+				  </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="socialmedia-1">
+				  <a href="https://www.linkedin.com/in/akhil-a-8129in/" target="_blank">
+                <img src="{% static 'images/linkedin-logo.jpg' %}" alt="Square Image" class="rounded-image">
+				  </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+              <div class="socialmedia-1">
+				  <a href="https://github.com/Akhil7654" target="_blank">
+                <img src="{% static 'images/github-logo.png' %}" alt="Square Image" class="rounded-image">
+				  </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+               <div class="socialmedia-1">
+				   <a href="mailto:msdcr88@gmail.com" target="_blank">
+                <img src="{% static 'images/google-logo.png' %}" alt="Square Image" class="rounded-image">
+				   </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sectionToDisappear" class="ftco section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg);height:220px;">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-7 ftco-animate text-center">
+<!--						<h2>I'm <span style="color:grey;">Available</span> for freelancing</h2>-->
+<!--						<p class="mb-0"><a href="#home-section" class="btn btn-primary py-3 px-5">Back to Top</a></p>-->
+					</div>
+				</div>
+			</div>
+	</section>
+
+		<script>
+			// Get a reference to the section
+const section = document.getElementById("sectionToDisappear");
+
+// Function to toggle the visibility of the section
+function toggleVisibility() {
+  // Toggle visibility by changing the display property
+  section.style.display = (section.style.display === "none") ? "block" : "none";
+}
+
+// Initially, make the section disappear
+section.style.display = "none";
+
+// After 2 seconds, make the section reappear
+setTimeout(toggleVisibility, 2000);
+
+		</script>
+
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="{% static 'js/jquery.min.js' %}"></script>
+  <script src="{% static 'js/jquery-migrate-3.0.1.min.js' %}"></script>
+  <script src="{% static 'js/popper.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+  <script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+  <script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+  <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+  <script src="{% static 'js/aos.js' %}"></script>
+  <script src="{% static 'js/jquery.animateNumber.min.js' %}"></script>
+  <script src="{% static 'js/scrollax.min.js' %}"></script>
+
+  <script src="{% static 'js/main.js' %}"></script>
+
+
+  </body>
+</html>
+
+{% endblock %}
